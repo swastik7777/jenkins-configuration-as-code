@@ -1,0 +1,14 @@
+configuration-as-code
+git
+workflow-aggregator
+job-dsl
+docker-workflow
+blueocean
+credentials
+matrix-auth
+timestamper
+ansicolor
+kubernetes
+pipeline-model-definition
+instance-identity
+cloudbees-folder
