@@ -10,6 +10,11 @@ jenkins:
       users:
         - id: ${JENKINS_ADMIN_ID}
           password: ${JENKINS_ADMIN_PASSWORD}
+        - id: ${JENKINS_DEV_ID}
+          password: ${JENKINS_DEV_PASSWORD}
+
+        - id: ${JENKINS_QA_ID}
+          password: ${JENKINS_QA_PASSWORD}
 
   authorizationStrategy:
     loggedInUsersCanDoAnything:
@@ -86,4 +91,3 @@ jobs:
           }
         }
       }
-
